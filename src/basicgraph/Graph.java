@@ -1,14 +1,8 @@
 package basicgraph;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-import java.util.TreeMap;
-
 import util.GraphLoader;
+
+import java.util.*;
 
 /** An abstract class that implements a directed graph. 
  * The graph may have self-loops, parallel edges. 
@@ -76,7 +70,7 @@ public abstract class Graph {
 	
 	/**
 	 * Add new edge to the graph between given vertices,
-	 * @param u Index of the start point of the edge to be added. 
+	 * @param //u Index of the start point of the edge to be added.
 	 * @param v Index of the end point of the edge to be added. 
 	 */
 	public void addEdge(int v , int w) {
@@ -121,8 +115,19 @@ public abstract class Graph {
 	 * @return The degree sequence of this graph.
 	 */
 	public List<Integer> degreeSequence() {
-		// XXX: Implement in part 1 of week 1
-		return null;
+		class MyIntComparable implements Comparator<Integer> {
+
+			@Override
+			public int compare(Integer o1, Integer o2) {
+				return (o1>o2 ? -1 : (o1==o2 ? 0 : 1));
+			}
+		}
+		List<Integer> myDegreeSequence = new ArrayList<Integer>();
+		for( int i = 0; i<numVertices; i++){
+			myDegreeSequence.add(getInNeighbors(i).size() + getNeighbors(i).size());
+		}
+		Collections.sort(myDegreeSequence, new MyIntComparable());
+		return myDegreeSequence;
 	}
 	
 	/**
@@ -164,7 +169,7 @@ public abstract class Graph {
 	/**
 	 * Test whether some vertex in the graph is labeled 
 	 * with a given index.
-	 * @param The index being checked
+	 * @param //The index being checked
 	 * @return True if there's a vertex in the graph with this index; false otherwise.
 	 */
 	public boolean hasVertex(int v)
@@ -175,7 +180,7 @@ public abstract class Graph {
 	/**
 	 * Test whether some vertex in the graph is labeled 
 	 * with a given String label
-	 * @param The String label being checked
+	 * @param //The String label being checked
 	 * @return True if there's a vertex in the graph with this label; false otherwise.
 	 */
 	public boolean hasVertex(String s)
@@ -185,8 +190,8 @@ public abstract class Graph {
 	
 	/**
 	 * Add label to an unlabeled vertex in the graph.
-	 * @param The index of the vertex to be labeled.
-	 * @param The label to be assigned to this vertex.
+	 * @param //The index of the vertex to be labeled.
+	 * @param //The label to be assigned to this vertex.
 	 */
 	public void addLabel(int v, String s) {
 		if (v < getNumVertices() && !vertexLabels.containsKey(v)) 
@@ -200,7 +205,7 @@ public abstract class Graph {
 	
 	/**
 	 * Report label of vertex with given index
-	 * @param The integer index of the vertex
+	 * @param //The integer index of the vertex
 	 * @return The String label of this vertex 
 	 */
 	public String getLabel(int v) {
@@ -213,7 +218,7 @@ public abstract class Graph {
 	/**
 	 * Report index of vertex with given label.
 	 * (Assume distinct labels for vertices.)
-	 * @param The String label of the vertex
+	 * @param //The String label of the vertex
 	 * @return The integer index of this vertex 
 	 */
 	public int getIndex(String s) {
