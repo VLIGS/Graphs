@@ -108,7 +108,7 @@ public class GraphAdjMatrix extends Graph {
 		List <Integer> twoHop = new ArrayList<Integer>();
 		for (int i = 0; i<getNumVertices(); i++){
 			for (int j = 0; j<adjMatrix[v][i]; j++){
-				twoHop.addAll(getNeighbors(j));
+				twoHop.addAll(getNeighbors(i));
 			}
 		}
 		return twoHop;
