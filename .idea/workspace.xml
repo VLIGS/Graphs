@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39dd411c-aeee-4e32-86d1-791f96863e1c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/basicgraph/GraphAdjList.java" afterPath="$PROJECT_DIR$/src/basicgraph/GraphAdjList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/basicgraph/GraphAdjMatrix.java" afterPath="$PROJECT_DIR$/src/basicgraph/GraphAdjMatrix.java" />
     </list>
     <ignored path="UCSDGraphs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,15 +49,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GraphAdjList.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GraphAdjList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/basicgraph/GraphAdjList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4394737">
+            <state vertical-scroll-proportion="-6.185185">
               <caret line="96" column="47" selection-start-line="96" selection-start-column="47" selection-end-line="96" selection-end-column="47" />
               <folding>
                 <element signature="e#1598#1599#0" expanded="true" />
                 <element signature="e#1654#1655#0" expanded="true" />
                 <element signature="e#2691#2700#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GraphAdjMatrix.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/basicgraph/GraphAdjMatrix.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.9157895">
+              <caret line="114" column="5" selection-start-line="114" selection-start-column="5" selection-end-line="114" selection-end-column="5" />
+              <folding>
+                <element signature="e#3118#3127#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,6 +100,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/basicgraph/Graph.java" />
         <option value="$PROJECT_DIR$/src/basicgraph/GraphAdjList.java" />
+        <option value="$PROJECT_DIR$/src/basicgraph/GraphAdjMatrix.java" />
       </list>
     </option>
   </component>
@@ -711,12 +724,12 @@
       <option name="number" value="Default" />
       <updated>1452788784612</updated>
       <workItem from="1452788788663" duration="1071000" />
-      <workItem from="1460722405961" duration="4964000" />
+      <workItem from="1460722405961" duration="6089000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6035000" />
+    <option name="totallyTimeSpent" value="7160000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="717" extended-state="6" />
@@ -818,12 +831,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/basicgraph/GraphAdjList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4394737">
+        <state vertical-scroll-proportion="-6.185185">
           <caret line="96" column="47" selection-start-line="96" selection-start-column="47" selection-end-line="96" selection-end-column="47" />
           <folding>
             <element signature="e#1598#1599#0" expanded="true" />
             <element signature="e#1654#1655#0" expanded="true" />
             <element signature="e#2691#2700#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/basicgraph/GraphAdjMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9157895">
+          <caret line="114" column="5" selection-start-line="114" selection-start-column="5" selection-end-line="114" selection-end-column="5" />
+          <folding>
+            <element signature="e#3118#3127#0" expanded="true" />
           </folding>
         </state>
       </provider>
