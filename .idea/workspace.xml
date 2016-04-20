@@ -52,12 +52,12 @@
       <file leaf-file-name="GraphAdjList.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/basicgraph/GraphAdjList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.63684213">
-              <caret line="101" column="13" selection-start-line="101" selection-start-column="13" selection-end-line="101" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.4394737">
+              <caret line="96" column="47" selection-start-line="96" selection-start-column="47" selection-end-line="96" selection-end-column="47" />
               <folding>
                 <element signature="e#1598#1599#0" expanded="true" />
                 <element signature="e#1654#1655#0" expanded="true" />
-                <element signature="e#2734#2743#0" expanded="true" />
+                <element signature="e#2691#2700#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -711,12 +711,12 @@
       <option name="number" value="Default" />
       <updated>1452788784612</updated>
       <workItem from="1452788788663" duration="1071000" />
-      <workItem from="1460722405961" duration="4727000" />
+      <workItem from="1460722405961" duration="4964000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5798000" />
+    <option name="totallyTimeSpent" value="6035000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="717" extended-state="6" />
@@ -818,12 +818,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/basicgraph/GraphAdjList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63684213">
-          <caret line="101" column="13" selection-start-line="101" selection-start-column="13" selection-end-line="101" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.4394737">
+          <caret line="96" column="47" selection-start-line="96" selection-start-column="47" selection-end-line="96" selection-end-column="47" />
           <folding>
             <element signature="e#1598#1599#0" expanded="true" />
             <element signature="e#1654#1655#0" expanded="true" />
-            <element signature="e#2734#2743#0" expanded="true" />
+            <element signature="e#2691#2700#0" expanded="true" />
           </folding>
         </state>
       </provider>
