@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39dd411c-aeee-4e32-86d1-791f96863e1c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UCSDGraphs.iml" afterPath="$PROJECT_DIR$/UCSDGraphs.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/basicgraph/Graph.java" afterPath="$PROJECT_DIR$/src/basicgraph/Graph.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/basicgraph/GraphAdjList.java" afterPath="$PROJECT_DIR$/src/basicgraph/GraphAdjList.java" />
     </list>
     <ignored path="UCSDGraphs.iws" />
@@ -39,10 +35,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Graph.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Graph.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/basicgraph/Graph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.6578948">
+            <state vertical-scroll-proportion="-10.740741">
               <caret line="121" column="51" selection-start-line="121" selection-start-column="51" selection-end-line="121" selection-end-column="51" />
               <folding>
                 <element signature="e#2918#2919#0" expanded="true" />
@@ -53,11 +49,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GraphAdjList.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GraphAdjList.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/basicgraph/GraphAdjList.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.63684213">
+              <caret line="101" column="13" selection-start-line="101" selection-start-column="13" selection-end-line="101" selection-end-column="13" />
+              <folding>
+                <element signature="e#1598#1599#0" expanded="true" />
+                <element signature="e#1654#1655#0" expanded="true" />
+                <element signature="e#2734#2743#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GraphGrader.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/basicgraph/GraphGrader.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="74" column="61" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="61" />
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -76,8 +86,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/basicgraph/GraphAdjList.java" />
         <option value="$PROJECT_DIR$/src/basicgraph/Graph.java" />
+        <option value="$PROJECT_DIR$/src/basicgraph/GraphAdjList.java" />
       </list>
     </option>
   </component>
@@ -701,12 +711,12 @@
       <option name="number" value="Default" />
       <updated>1452788784612</updated>
       <workItem from="1452788788663" duration="1071000" />
-      <workItem from="1460722405961" duration="2975000" />
+      <workItem from="1460722405961" duration="4727000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4046000" />
+    <option name="totallyTimeSpent" value="5798000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="717" extended-state="6" />
@@ -786,22 +796,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/basicgraph/GraphAdjList.java">
+    <entry file="file://$PROJECT_DIR$/src/basicgraph/GraphGrader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="74" column="61" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="61" />
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/basicgraph/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.6578948">
+        <state vertical-scroll-proportion="-10.740741">
           <caret line="121" column="51" selection-start-line="121" selection-start-column="51" selection-end-line="121" selection-end-column="51" />
           <folding>
             <element signature="e#2918#2919#0" expanded="true" />
             <element signature="e#2967#2968#0" expanded="true" />
             <element signature="e#3021#3030#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/basicgraph/GraphAdjList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.63684213">
+          <caret line="101" column="13" selection-start-line="101" selection-start-column="13" selection-end-line="101" selection-end-column="13" />
+          <folding>
+            <element signature="e#1598#1599#0" expanded="true" />
+            <element signature="e#1654#1655#0" expanded="true" />
+            <element signature="e#2734#2743#0" expanded="true" />
           </folding>
         </state>
       </provider>
