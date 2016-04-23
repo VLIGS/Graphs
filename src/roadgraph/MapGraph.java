@@ -8,12 +8,13 @@
 package roadgraph;
 
 
+import geography.GeographicPoint;
+import util.GraphLoader;
+
+import java.util.HashMap;
 import java.util.List;
 import java.util.Set;
 import java.util.function.Consumer;
-
-import geography.GeographicPoint;
-import util.GraphLoader;
 
 /**
  * @author UCSD MOOC development team and YOU
@@ -24,7 +25,8 @@ import util.GraphLoader;
  */
 public class MapGraph {
 	//TODO: Add your member variables here in WEEK 2
-	
+	List <MapNode> myNodes;
+	HashMap<GeographicPoint, MapNode> myMap;
 	
 	/** 
 	 * Create a new empty MapGraph 
