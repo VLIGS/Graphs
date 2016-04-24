@@ -31,6 +31,7 @@ public class MapGraph {
 	public MapGraph()
 	{
 		myNodes = new ArrayList<MapNode>();
+		myMap = new HashMap<GeographicPoint, MapNode>();
 	}
 	
 	/**
@@ -76,8 +77,15 @@ public class MapGraph {
 	 */
 	public boolean addVertex(GeographicPoint location)
 	{
-		// TODO: Implement this method in WEEK 2
-		return false;
+		if((location==null) || (myMap.containsKey(location))){
+			return false;
+		}
+		else{
+			MapNode newNode = new MapNode(location);
+			myNodes.add(newNode);
+			myMap.put(location,newNode);
+			return true;
+		}
 	}
 	
 	/**
