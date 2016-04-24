@@ -11,9 +11,7 @@ package roadgraph;
 import geography.GeographicPoint;
 import util.GraphLoader;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 import java.util.function.Consumer;
 
 /**
@@ -24,16 +22,15 @@ import java.util.function.Consumer;
  *
  */
 public class MapGraph {
-	//TODO: Add your member variables here in WEEK 2
-	List <MapNode> myNodes;
-	HashMap<GeographicPoint, MapNode> myMap;
+	private List <MapNode> myNodes;
+	private HashMap<GeographicPoint, MapNode> myMap;
 	
 	/** 
 	 * Create a new empty MapGraph 
 	 */
 	public MapGraph()
 	{
-		// TODO: Implement in this constructor in WEEK 2
+		myNodes = new ArrayList<MapNode>();
 	}
 	
 	/**
@@ -42,8 +39,7 @@ public class MapGraph {
 	 */
 	public int getNumVertices()
 	{
-		//TODO: Implement this method in WEEK 2
-		return 0;
+		return myNodes.size();
 	}
 	
 	/**
@@ -52,8 +48,11 @@ public class MapGraph {
 	 */
 	public Set<GeographicPoint> getVertices()
 	{
-		//TODO: Implement this method in WEEK 2
-		return null;
+		Set<GeographicPoint> myVertices = new HashSet<>();
+		for( MapNode node: myNodes){
+			myVertices.add(node.getLocation());
+		}
+		return myVertices;
 	}
 	
 	/**

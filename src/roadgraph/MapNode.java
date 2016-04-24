@@ -13,4 +13,12 @@ public class MapNode {
         this.location = location;
         myEdges = new ArrayList<MapEdge>();
     }
+    public void addEdge(MapEdge edge){
+        myEdges.add(edge);
+    }
+    public GeographicPoint getLocation(){
+        return location;
+    }
 }
+
+
