@@ -5,13 +5,15 @@ import geography.GeographicPoint;
 public class MapEdge {
     private GeographicPoint start;
     private GeographicPoint end;
-    private String streetName;
-    private double distance;
+    private String roadName;
+    private String roadType;
+    private double length;
 
-    public MapEdge(GeographicPoint start, GeographicPoint end, String streetName, double distance){
+    public MapEdge(GeographicPoint start, GeographicPoint end, String roadName, String roadType, double length){
         this.start = start;
         this.end = end;
-        this.streetName = streetName;
-        this.distance = distance;
+        this.roadName = roadName;
+        this.roadType = roadType;
+        this.length = length;
     }
 }
