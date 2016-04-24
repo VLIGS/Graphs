@@ -108,6 +108,9 @@ public class MapGraph {
 		if(!myMap.containsKey(from)|| ! myMap.containsKey(to)){
 			throw new IllegalArgumentException();
 		}
+		MapEdge newEdge = new MapEdge(from, to , roadName, roadType, length);
+		myMap.get(from).addEdge(newEdge);
+		myMap.get(to).addEdge(newEdge);
 	}
 	
 
