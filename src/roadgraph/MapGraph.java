@@ -102,9 +102,12 @@ public class MapGraph {
 	 */
 	public void addEdge(GeographicPoint from, GeographicPoint to, String roadName,
 			String roadType, double length) throws IllegalArgumentException {
-
-		//TODO: Implement this method in WEEK 2
-		
+		if(from==null || to == null || roadName == null || roadType == null || length == 0.0 || length < 0){
+			throw new IllegalArgumentException();
+		}
+		if(!myMap.containsKey(from)|| ! myMap.containsKey(to)){
+			throw new IllegalArgumentException();
+		}
 	}
 	
 

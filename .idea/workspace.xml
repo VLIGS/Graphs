@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="39dd411c-aeee-4e32-86d1-791f96863e1c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/roadgraph/testMapGraph.java" afterPath="$PROJECT_DIR$/src/roadgraph/testMapGraph.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/roadgraph/MapGraph.java" afterPath="$PROJECT_DIR$/src/roadgraph/MapGraph.java" />
     </list>
     <ignored path="UCSDGraphs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,20 +26,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MapGraph.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MapGraph.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/roadgraph/MapGraph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.2222223">
-              <caret line="83" column="52" selection-start-line="83" selection-start-column="52" selection-end-line="83" selection-end-column="52" />
+            <state vertical-scroll-proportion="0.7894737">
+              <caret line="110" column="5" selection-start-line="110" selection-start-column="5" selection-end-line="110" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testMapGraph.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="testMapGraph.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/roadgraph/testMapGraph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.3538084">
+            <state vertical-scroll-proportion="0.0">
               <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -96,9 +96,9 @@
         <option value="$PROJECT_DIR$/src/basicgraph/GraphAdjList.java" />
         <option value="$PROJECT_DIR$/src/basicgraph/GraphAdjMatrix.java" />
         <option value="$PROJECT_DIR$/src/roadgraph/MapNode.java" />
-        <option value="$PROJECT_DIR$/src/roadgraph/MapGraph.java" />
         <option value="$PROJECT_DIR$/src/roadgraph/MapEdge.java" />
         <option value="$PROJECT_DIR$/src/roadgraph/testMapGraph.java" />
+        <option value="$PROJECT_DIR$/src/roadgraph/MapGraph.java" />
       </list>
     </option>
   </component>
@@ -812,22 +812,22 @@
       <workItem from="1452788788663" duration="1071000" />
       <workItem from="1460722405961" duration="7680000" />
       <workItem from="1461525214034" duration="3254000" />
-      <workItem from="1461528524154" duration="3270000" />
+      <workItem from="1461528524154" duration="3817000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="testMapGraph - 2016.04.24 at 21h 17m 35s.xml">
-      <configuration name="testMapGraph" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="testMapGraph - 2016.04.24 at 21h 26m 31s.xml">
       <configuration name="testMapGraph" configurationId="JUnit" />
     </history-entry>
     <history-entry file="testMapGraph - 2016.04.24 at 22h 03m 54s.xml">
       <configuration name="testMapGraph" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="testMapGraph_testAddVertexPassInExistingVertex - 2016.04.24 at 21h 17m 50s.xml">
-      <configuration name="testMapGraph.testAddVertexPassInExistingVertex" configurationId="JUnit" />
+    <history-entry file="testMapGraph - 2016.04.24 at 22h 10m 25s.xml">
+      <configuration name="testMapGraph" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testMapGraph - 2016.04.24 at 22h 12m 47s.xml">
+      <configuration name="testMapGraph" configurationId="JUnit" />
     </history-entry>
     <history-entry file="testMapGraph_testAddVertexPassInExistingVertex - 2016.04.24 at 21h 18m 41s.xml">
       <configuration name="testMapGraph.testAddVertexPassInExistingVertex" configurationId="JUnit" />
@@ -849,7 +849,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15275000" />
+    <option name="totallyTimeSpent" value="15822000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="717" extended-state="6" />
@@ -1130,21 +1130,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/roadgraph/MapGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.2222223">
-          <caret line="83" column="52" selection-start-line="83" selection-start-column="52" selection-end-line="83" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/roadgraph/testMapGraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.3538084">
+        <state vertical-scroll-proportion="0.0">
           <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/roadgraph/MapGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7894737">
+          <caret line="110" column="5" selection-start-line="110" selection-start-column="5" selection-end-line="110" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
