@@ -90,4 +90,25 @@ public class testMapGraph {
         myTestGraph.addEdge(from, to, "main street", "residential", 23.1 );
     }
 
+    @Test
+    public void testNumberOfEdgesEmptyGraph(){
+        MapGraph myTestGraph = new MapGraph();
+        assertEquals(0,myTestGraph.getNumEdges());
+    }
+
+    @Test
+    public void testNumberOfEdgesGraphNoEdges(){
+        MapGraph myTestGraph = new MapGraph();
+        assertEquals(0,myTestGraph.getNumEdges());
+    }
+
+    @Test
+    public void testNumberOfEdgesGraphWithEdges(){
+        MapGraph myTestGraph = new MapGraph();
+        GeographicPoint from = new GeographicPoint(53.01799, -2.1675);
+        GeographicPoint to = new GeographicPoint(52.47, -1.9706);
+        myTestGraph.addEdge(from, to, "main street", "residential", 23.1 );
+        assertEquals(2,myTestGraph.getNumEdges());
+    }
+
 }

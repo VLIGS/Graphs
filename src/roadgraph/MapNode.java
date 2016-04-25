@@ -19,6 +19,9 @@ public class MapNode {
     public GeographicPoint getLocation(){
         return location;
     }
+    public int getNumberOfEdges(){
+        return myEdges.size();
+    }
 }
 
 

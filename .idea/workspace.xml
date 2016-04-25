@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39dd411c-aeee-4e32-86d1-791f96863e1c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/roadgraph/MapGraph.java" afterPath="$PROJECT_DIR$/src/roadgraph/MapGraph.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/roadgraph/MapNode.java" afterPath="$PROJECT_DIR$/src/roadgraph/MapNode.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/roadgraph/testMapGraph.java" afterPath="$PROJECT_DIR$/src/roadgraph/testMapGraph.java" />
     </list>
     <ignored path="UCSDGraphs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,21 +26,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MapGraph.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MapGraph.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/roadgraph/MapGraph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5131579">
+            <state vertical-scroll-proportion="-32.77778">
               <caret line="114" column="4" selection-start-line="114" selection-start-column="4" selection-end-line="114" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testMapGraph.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="testMapGraph.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/roadgraph/testMapGraph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.5945946">
+              <caret line="109" column="68" selection-start-line="109" selection-start-column="68" selection-end-line="109" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,13 +52,15 @@
         <entry file="file://$PROJECT_DIR$/src/roadgraph/MapNode.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#371#372#0" expanded="true" />
                 <element signature="e#404#405#0" expanded="true" />
                 <element signature="e#446#447#0" expanded="true" />
                 <element signature="e#477#478#0" expanded="true" />
+                <element signature="e#512#513#0" expanded="true" />
+                <element signature="e#549#550#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -96,10 +99,10 @@
         <option value="$PROJECT_DIR$/src/basicgraph/Graph.java" />
         <option value="$PROJECT_DIR$/src/basicgraph/GraphAdjList.java" />
         <option value="$PROJECT_DIR$/src/basicgraph/GraphAdjMatrix.java" />
-        <option value="$PROJECT_DIR$/src/roadgraph/MapNode.java" />
         <option value="$PROJECT_DIR$/src/roadgraph/MapEdge.java" />
-        <option value="$PROJECT_DIR$/src/roadgraph/testMapGraph.java" />
         <option value="$PROJECT_DIR$/src/roadgraph/MapGraph.java" />
+        <option value="$PROJECT_DIR$/src/roadgraph/MapNode.java" />
+        <option value="$PROJECT_DIR$/src/roadgraph/testMapGraph.java" />
       </list>
     </option>
   </component>
@@ -813,7 +816,7 @@
       <workItem from="1452788788663" duration="1071000" />
       <workItem from="1460722405961" duration="7680000" />
       <workItem from="1461525214034" duration="3254000" />
-      <workItem from="1461528524154" duration="4804000" />
+      <workItem from="1461528524154" duration="5726000" />
     </task>
     <servers />
   </component>
@@ -830,11 +833,11 @@
     <history-entry file="testMapGraph - 2016.04.24 at 22h 12m 47s.xml">
       <configuration name="testMapGraph" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="testMapGraph_testAddVertexPassInExistingVertex - 2016.04.24 at 21h 18m 41s.xml">
-      <configuration name="testMapGraph.testAddVertexPassInExistingVertex" configurationId="JUnit" />
+    <history-entry file="testMapGraph - 2016.04.25 at 08h 24m 12s.xml">
+      <configuration name="testMapGraph" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="testMapGraph_testAddVertexPassInExistingVertex - 2016.04.24 at 21h 19m 46s.xml">
-      <configuration name="testMapGraph.testAddVertexPassInExistingVertex" configurationId="JUnit" />
+    <history-entry file="testMapGraph - 2016.04.25 at 08h 24m 53s.xml">
+      <configuration name="testMapGraph" configurationId="JUnit" />
     </history-entry>
     <history-entry file="testMapGraph_testAddVertexPassInExistingVertex - 2016.04.24 at 21h 21m 05s.xml">
       <configuration name="testMapGraph.testAddVertexPassInExistingVertex" configurationId="JUnit" />
@@ -850,7 +853,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16809000" />
+    <option name="totallyTimeSpent" value="17731000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="717" extended-state="6" />
@@ -864,7 +867,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -947,6 +950,8 @@
             <element signature="e#404#405#0" expanded="true" />
             <element signature="e#446#447#0" expanded="true" />
             <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -977,6 +982,8 @@
             <element signature="e#404#405#0" expanded="true" />
             <element signature="e#446#447#0" expanded="true" />
             <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1115,16 +1122,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/roadgraph/testMapGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/roadgraph/MapEdge.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1133,25 +1130,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/roadgraph/MapGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-32.77778">
+          <caret line="114" column="4" selection-start-line="114" selection-start-column="4" selection-end-line="114" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/roadgraph/MapNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#371#372#0" expanded="true" />
             <element signature="e#404#405#0" expanded="true" />
             <element signature="e#446#447#0" expanded="true" />
             <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/roadgraph/MapGraph.java">
+    <entry file="file://$PROJECT_DIR$/src/roadgraph/testMapGraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5131579">
-          <caret line="114" column="4" selection-start-line="114" selection-start-column="4" selection-end-line="114" selection-end-column="4" />
-          <folding />
+        <state vertical-scroll-proportion="0.5945946">
+          <caret line="109" column="68" selection-start-line="109" selection-start-column="68" selection-end-line="109" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
