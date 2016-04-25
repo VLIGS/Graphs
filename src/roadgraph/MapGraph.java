@@ -62,8 +62,11 @@ public class MapGraph {
 	 */
 	public int getNumEdges()
 	{
-		//TODO: Implement this method in WEEK 2
-		return 0;
+		int totalNumEdges = 0;
+		for( MapNode node: myNodes){
+			totalNumEdges+=node.getNumberOfEdges();
+		}
+		return totalNumEdges;
 	}
 
 	

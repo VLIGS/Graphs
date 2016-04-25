@@ -107,8 +107,9 @@ public class testMapGraph {
         MapGraph myTestGraph = new MapGraph();
         GeographicPoint from = new GeographicPoint(53.01799, -2.1675);
         GeographicPoint to = new GeographicPoint(52.47, -1.9706);
+        myTestGraph.addVertex(from);
+        myTestGraph.addVertex(to);
         myTestGraph.addEdge(from, to, "main street", "residential", 23.1 );
         assertEquals(2,myTestGraph.getNumEdges());
     }
-
 }
