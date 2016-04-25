@@ -16,4 +16,7 @@ public class MapEdge {
         this.roadType = roadType;
         this.length = length;
     }
+    public GeographicPoint getEnd(){
+        return end;
+    }
 }

@@ -141,8 +141,33 @@ public class MapGraph {
 	public List<GeographicPoint> bfs(GeographicPoint start, 
 			 					     GeographicPoint goal, Consumer<GeographicPoint> nodeSearched)
 	{
-		// TODO: Implement this method in WEEK 2
-		
+		Queue<MapNode> myQueue = new LinkedList<MapNode>();
+		Set visited = new HashSet<GeographicPoint>();
+		Map parent = new HashMap<GeographicPoint, MapNode>();
+		MapNode current;
+
+		myQueue.add(myMap.get(start));
+		visited.add(start);
+
+		while(myQueue.size()!=0){
+
+			//dequeue node from front of queue
+			current = myQueue.poll();
+			if(current.getLocation().distance(goal)==0.0){
+				System.out.println("found goal");
+				return null;
+			}
+			else{
+				for(MapEdge neighbour: current.getMyEdges()){
+					if(!visited.contains(neighbour.getEnd())){
+						visited.add(neighbour.getEnd());
+						myQueue.add(myMap.get(neighbour.getEnd()));
+						//parent.put(current.getLocation(),)
+					}
+				}
+			}
+		}
+
 		// Hook for visualization.  See writeup.
 		//nodeSearched.accept(next.getLocation());
 
@@ -223,6 +248,7 @@ public class MapGraph {
 		MapGraph theMap = new MapGraph();
 		System.out.print("DONE. \nLoading the map...");
 		GraphLoader.loadRoadMap("data/testdata/simpletest.map", theMap);
+		theMap.bfs(new GeographicPoint(1.0, 1.0), new GeographicPoint(8.0, -1.0));
 		System.out.println("DONE.");
 		
 		// You can use this method for testing.  

@@ -22,6 +22,9 @@ public class MapNode {
     public int getNumberOfEdges(){
         return myEdges.size();
     }
+    public List<MapEdge> getMyEdges(){
+        return myEdges;
+    }
 }
 
 
