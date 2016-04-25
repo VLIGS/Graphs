@@ -143,7 +143,7 @@ public class MapGraph {
 	{
 		Queue<MapNode> myQueue = new LinkedList<MapNode>();
 		Set visited = new HashSet<GeographicPoint>();
-		Map parent = new HashMap<GeographicPoint, MapNode>();
+		Map parent = new HashMap<GeographicPoint, GeographicPoint>();
 		MapNode current;
 
 		myQueue.add(myMap.get(start));
@@ -155,14 +155,14 @@ public class MapGraph {
 			current = myQueue.poll();
 			if(current.getLocation().distance(goal)==0.0){
 				System.out.println("found goal");
-				return null;
+				return getPath(parent, start, goal);
 			}
 			else{
 				for(MapEdge neighbour: current.getMyEdges()){
 					if(!visited.contains(neighbour.getEnd())){
 						visited.add(neighbour.getEnd());
 						myQueue.add(myMap.get(neighbour.getEnd()));
-						//parent.put(current.getLocation(),)
+						parent.put(neighbour.getEnd(),current.getLocation());
 					}
 				}
 			}
@@ -172,6 +172,26 @@ public class MapGraph {
 		//nodeSearched.accept(next.getLocation());
 
 		return null;
+	}
+
+	/** Support function that extracts shortest path and puts it in order from start to end
+	 *
+	 * @param parentsMap Map that records all permutations of paths
+	 * @param start starting location
+	 * @param end goal location
+     * @return ordered list of Geographic locations showing shortest path from start to end
+     */
+	private List<GeographicPoint> getPath(Map parentsMap, GeographicPoint start,GeographicPoint end){
+		List <GeographicPoint> path = new ArrayList<GeographicPoint>();
+		GeographicPoint current = end;
+		do {
+			path.add(current);
+			current = (GeographicPoint)parentsMap.get(current);
+		}
+		while(current.distance(start)!=0);
+		path.add(current);
+		Collections.reverse(path);
+		return path;
 	}
 	
 

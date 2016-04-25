@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39dd411c-aeee-4e32-86d1-791f96863e1c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/roadgraph/MapEdge.class" afterPath="$PROJECT_DIR$/bin/roadgraph/MapEdge.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/roadgraph/MapGraph.class" afterPath="$PROJECT_DIR$/bin/roadgraph/MapGraph.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/roadgraph/MapNode.class" afterPath="$PROJECT_DIR$/bin/roadgraph/MapNode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/roadgraph/MapEdge.java" afterPath="$PROJECT_DIR$/src/roadgraph/MapEdge.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/roadgraph/MapGraph.java" afterPath="$PROJECT_DIR$/src/roadgraph/MapGraph.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/roadgraph/MapNode.java" afterPath="$PROJECT_DIR$/src/roadgraph/MapNode.java" />
     </list>
     <ignored path="UCSDGraphs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,10 +28,11 @@
       <file leaf-file-name="MapGraph.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/roadgraph/MapGraph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33233532">
-              <caret line="156" column="0" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
+            <state vertical-scroll-proportion="7.320359">
+              <caret line="176" column="91" selection-start-line="176" selection-start-column="91" selection-end-line="176" selection-end-column="91" />
               <folding>
                 <element signature="e#4325#4334#0" expanded="true" />
+                <element signature="e#5609#5626#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -895,7 +890,7 @@
       <workItem from="1452788788663" duration="1071000" />
       <workItem from="1460722405961" duration="7680000" />
       <workItem from="1461525214034" duration="3254000" />
-      <workItem from="1461528524154" duration="12968000" />
+      <workItem from="1461528524154" duration="15580000" />
     </task>
     <servers />
   </component>
@@ -932,7 +927,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24973000" />
+    <option name="totallyTimeSpent" value="27585000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="717" extended-state="6" />
@@ -982,7 +977,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="14" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -997,6 +992,7 @@
           <caret line="84" column="40" selection-start-line="84" selection-start-column="40" selection-end-line="84" selection-end-column="40" />
           <folding>
             <element signature="e#4325#4334#0" expanded="true" />
+            <element signature="e#5609#5626#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1053,6 +1049,7 @@
           <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
           <folding>
             <element signature="e#4325#4334#0" expanded="true" />
+            <element signature="e#5609#5626#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1252,10 +1249,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/roadgraph/MapGraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33233532">
-          <caret line="156" column="0" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
+        <state vertical-scroll-proportion="7.320359">
+          <caret line="176" column="91" selection-start-line="176" selection-start-column="91" selection-end-line="176" selection-end-column="91" />
           <folding>
             <element signature="e#4325#4334#0" expanded="true" />
+            <element signature="e#5609#5626#0" expanded="true" />
           </folding>
         </state>
       </provider>
