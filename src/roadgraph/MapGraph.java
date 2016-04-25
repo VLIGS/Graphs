@@ -113,7 +113,7 @@ public class MapGraph {
 		}
 		MapEdge newEdge = new MapEdge(from, to , roadName, roadType, length);
 		myMap.get(from).addEdge(newEdge);
-		myMap.get(to).addEdge(newEdge);
+		//myMap.get(to).addEdge(newEdge);
 	}
 	
 
